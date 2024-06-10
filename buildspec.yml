@@ -1,0 +1,21 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo Installing dependencies...
+      # If using npm, uncomment the following line
+      # - npm install
+      # If using yarn, uncomment the following line
+      # - yarn install
+
+  build:
+    commands:
+      - echo Build started on `date`
+      # Add build commands here, if any
+      # - npm run build
+
+artifacts:
+  files:
+    - '**/*'
+  base-directory: 'dist' # Change this to your build output directory, if any
